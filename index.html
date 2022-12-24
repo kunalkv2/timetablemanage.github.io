@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TMGS</title>
+  </head>
+  <body>
+    <img class="backimg" src="vackground.png" alt="bakimg">
+    <div class="container">
+      <h2 style="font-size: 35px">Registration From</h2>
+      <p style="font-size: 25px">
+        Enter yours details and submit
+      </p>
+
+      <form action="index.php" method = "post">
+        <input
+          type="name"
+          name="fname"
+          id="fname"
+          placeholder="Enter your first name"
+        />
+        <br />
+
+        <input
+          type="name"
+          name="lname"
+          id="lname"
+          placeholder="Enter your last name"
+        />
+        <br />
+
+        <input type="int" name="age" id="age" placeholder="Enter your age" />
+        <br />
+        
+        <!-- <input type="checkbox" name="gen" id="gen"> -->
+      
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone number"
+        />
+        <br />
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="Enter your mail ID"
+        />
+        <br />
+
+        <!-- <textarea
+          name="desc"
+          id="desc"
+          cols="30"
+          rows="10"
+          placeholder="Any other details"
+        ></textarea> -->
+        <button class="btn"> <a href="index.php"></a> Submit</button>
+        <button class="btn2">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>

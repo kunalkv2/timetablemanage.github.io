@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.container p,
+h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  padding: 5px;
+  word-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input,
+textarea {
+  display: block;
+  width: 80%;
+  margin: 10px 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: 12x solid black;
+  border-radius: 8px;
+}
+
+button {
+  padding: 20px;
+  width: 10%;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+.btn:hover {
+  font-size: 20px;
+  background-color: blue;
+}
+.btn2:hover {
+  font-size: 20px;
+  background-color: blue;
+}
+
+.backimg{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  opacity: 80%;
+}
